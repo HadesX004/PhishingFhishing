@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+
+li, a , button{
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+ }
+ 
+ 
+ header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 60px;
+   background-color: #ffc107;
+ }
+ 
+ .logo{
+ height: 60px;
+ cursor: pointer;
+ order: 1;
+ }
+ 
+ nav{
+     order: 2;
+ }
+ 
+ .cta{
+     order: 3;
+     margin-left: auto;
+ }
+ 
+ .navlinks{
+     list-style: none;
+ }
+ 
+ .navlinks li {
+   display: inline-block;
+   padding: 0px 20px;
+ }
+ .navlinks li a {
+     transition: all 0.3s ease 0s;
+ }
+ 
+ .navlinks li a:hover {
+     color: none;
+ }
+ 
+ button{
+    padding: 10px 25px;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+ }
+ 
+ button:hover {
+    background-color: gray;
+ 
+}
+
+body{
+  margin :0;
+  padding: 0;
+  background-image: url(img/phishing.jpeg);
+  background-size: contain;
+
+}   
+
+body, input , button{
+    font-family: Helvetica, sans-serif;
+
+}
+
+.container {
+  padding-top: 130px;
+  padding-bottom: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 980px;  
+  margin: 0 auto; 
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+
+ 
+}
+
+a,
+input,
+button {
+    display: block;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+
+}
+
+input::placeholder {
+    font-size: 18px;
+    color: #1d2129;
+    opacity: 0.6;
+}
+
+form a {
+    color: yellow;
+    font-size: 14 px ;
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    text-decoration: none;
+    padding-bottom: 16px;
+   
+    
+}
+
+form a:hover{
+    text-decoration: underline;
+}
+
+
+
